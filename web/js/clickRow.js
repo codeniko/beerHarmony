@@ -66,7 +66,7 @@ function reloadAvgrund(){
                      response=xmlhttp.responseText;
                   }
                }
-               xmlhttp.open("GET","http://cs336-12.cs.rutgers.edu/php/details.php?name="+pName+"&age="+pAge,false);
+               xmlhttp.open("GET","/beerHarmony/web/php/details.php?name="+pName+"&age="+pAge,false);
                xmlhttp.send();
             },
             template: '<script> console.log(pName) </script>' + 
